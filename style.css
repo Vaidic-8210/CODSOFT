@@ -1,0 +1,132 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: grey;
+  color: white;
+  padding: 10px 30px;
+}
+
+.left-header {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.right-header ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.right-header a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.middle {
+  display: flex;
+  background-color: #dbefff;
+  padding: 40px 30px;
+  align-items: center;
+}
+
+.left-middle img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.right-middle {
+  padding-left: 40px;
+  max-width: 600px;
+}
+
+.right-middle h1 {
+  color: black;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.right-middle p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.hire-btn {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.bottom {
+  background-color: #dbefff;
+  padding: 30px;
+  text-align: center;
+}
+
+.bottom h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.bottom p {
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+.download-btn {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.contact {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  margin: 8px 0;
+}
+
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
